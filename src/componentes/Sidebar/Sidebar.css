@@ -42,6 +42,10 @@
     font-family: 'Dm Sans', sans-serif;
 }
 
+.icons {
+    margin-right: 10px;
+}
+
 .library {
     background-color: #a18cd1;
     border-radius: 8px;
@@ -140,6 +144,11 @@
     width: 113px;
 }
 
+.section-playlist__content .section-playlist__button:hover {
+    background: #faf9f6;
+    color: #b490ca;
+}
+
 .sidebar .cookies {
     margin: 20px 25px;
 
@@ -204,14 +213,18 @@
 }
 
 .disclaimer-premium button {
-    background-color: #FAF9F6;
+    background-color: #faf9f6;
     color: #a18cd1;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Dm Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
     padding: 10px 20px;
-    border: 0;
+    border: none;
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
 }

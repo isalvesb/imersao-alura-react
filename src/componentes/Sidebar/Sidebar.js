@@ -1,7 +1,7 @@
 import './Sidebar.css';
 import logoSpotify from '../../assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHome, faSearch, faGlobe} from '@fortawesome/free-solid-svg-icons';
+import { faHome, faSearch, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -15,13 +15,13 @@ const Sidebar = () => {
                 <ul>
                     <li>
                         <a href="">
-                            <span><FontAwesomeIcon icon={faHome} /></span>
+                            <span className='icons'><FontAwesomeIcon icon={faHome} /></span>
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span><FontAwesomeIcon icon={faSearch} /></span>
+                            <span className='icons'><FontAwesomeIcon icon={faSearch} /></span>
                             <span>Buscar</span>
                         </a>
                     </li>
