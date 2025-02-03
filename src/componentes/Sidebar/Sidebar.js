@@ -49,7 +49,7 @@ const Sidebar = () => {
                 </div>
                 <div className="languages">
                     <button className="languages__button">
-                        <span><FontAwesomeIcon icon={faGlobe} /></span>
+                        <span className='icons'><FontAwesomeIcon icon={faGlobe} /></span>
                         <span>Português do Brasil</span>
                     </button>
                 </div>
